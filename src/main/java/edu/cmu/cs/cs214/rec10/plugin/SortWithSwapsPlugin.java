@@ -6,6 +6,7 @@ import edu.cmu.cs.cs214.rec10.framework.core.GamePlugin;
 import java.util.Random;
 
 public class SortWithSwapsPlugin implements GamePlugin {
+    // Constant variables
     private int ONE = 1;
     private int TEN = 10;
 
@@ -73,7 +74,7 @@ public class SortWithSwapsPlugin implements GamePlugin {
     }
 
     public boolean isMoveValid(int x, int y) {
-        return this.move || !this.move;
+        return !this.move;
     }
 
     public boolean isMoveOver() {
